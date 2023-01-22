@@ -28,8 +28,8 @@ public class Conexion {
      public Conexion(){
          var pooledDataSource= new ComboPooledDataSource();
          pooledDataSource.setJdbcUrl("jdbc:mysql://localhost/hotel_alura");
-         pooledDataSource.setUser("root");
-         pooledDataSource.setPassword("alejandrotoledo300");
+         pooledDataSource.setUser("AdminAluraHotel");
+         pooledDataSource.setPassword("admin1234");
          pooledDataSource.setMaxPoolSize(10);
          this.datasource=pooledDataSource;
      }
